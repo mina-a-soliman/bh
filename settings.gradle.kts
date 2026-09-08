@@ -1,2 +1,8 @@
-rootProject.name = "SubtitleBurner"
-include(":app")
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
